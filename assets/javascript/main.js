@@ -54,7 +54,7 @@ Main.UpdateLetter = function(letter){
         window.location.reload();   
     }
 
-    if(Main.lives < 1){
+    if(Main.Lives < 1){
         document.getElementById("WORD").innerHTML = Main.Word1;
         alert("You Have Run Out Of Lives, Please Try Again.");
         window.location.reload();
